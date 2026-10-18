@@ -1,7 +1,3 @@
-
-<div style="background:#1e1e2e;border:1px solid #89b4fa;border-radius:10px;padding:16px;margin-bottom:20px;">
-  <h3 style="color:#89b4fa;font-family:monospace;margin-bottom:10px;">⚙️ script.js — 9,602 bytes</h3>
-  <pre style="color:#cdd6f4;font-family:monospace;font-size:12px;white-space:pre-wrap;word-break:break-all;max-height:400px;overflow-y:auto;background:#11111b;padding:12px;border-radius:8px;">
 /* MODULE 1 — TWINKLING STAR FIELD */
 (function StarField(){
   const canvas=document.getElementById('stars-canvas'),ctx=canvas.getContext('2d');
@@ -177,5 +173,3 @@ setTimeout(()=>{document.getElementById('scrollHint').classList.add('visible')},
   }
   loop();
 })();
-</pre>
-</div>
